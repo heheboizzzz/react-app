@@ -1,17 +1,19 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './App.css';
-import Navigation from './Components/Header/Navigation/Navigation';
+import Navigation from './Components/Navigation/Navigation';
+import Main from './Components/Main';
+import Footer from './Components/Footer/Footer';
 
-import Footer from './Components/Header/Footer/Footer';
-import Main from './Components/Header/Main';
+
+
 
 function App() {
   return (
     <div className="App">
-     <Navigation/>
-     <Main/>
-     <Footer/>
+      <Navigation/>
+      <Main/>
+      <Footer/>
     </div>
   );
 }
